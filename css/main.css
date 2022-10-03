@@ -1,0 +1,37 @@
+:root {
+  font-family: "Rubik", sans-serif;
+  --color-menu: #4a4a4a;
+  --background-color: #3cdbc0;
+  --color-text: #ffffff;
+}
+.header {
+  position: sticky;
+  background-color: var(--color-text);
+}
+.img {
+  width: 100%;
+}
+.menu {
+  color: var(--color-menu);
+}
+.main {
+  background-color: var(--background-color);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 30px;
+  color: var(--color-text);
+  text-align: center;
+  max-width: 200px;
+  font-weight: bold;
+}
+.title::first-line {
+  word-spacing: 110vw;
+}
+
+@media screen and (min-width: 768px) {
+}
