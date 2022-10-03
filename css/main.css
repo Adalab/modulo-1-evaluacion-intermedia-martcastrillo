@@ -62,9 +62,6 @@
     padding-left: 30px;
   }
   .menu {
-    color: var(--color-menu);
-    display: flex;
-    align-items: center;
     font: size 16px;
     padding-right: 30px;
   }
